@@ -1,0 +1,81 @@
+  body {
+    font-family: Arial, sans-serif;
+    background:url(aes.jph.jpg);
+    background-size: cover; 
+}
+
+.container {
+    max-width:300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(254, 241, 253);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color:#fef8ff
+}
+
+button {
+    
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9392fb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.edit{
+    
+    cursor:pointer;
+    height:20px;
+    width:40px;
+   font-size:10px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete {
+    
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    height:20px;
+    width:40px;
+   font-size:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
